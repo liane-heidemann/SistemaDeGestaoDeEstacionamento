@@ -4,7 +4,7 @@
 
 > Usuários podem registrar a entrada e a saída dos veículos e calcular o valor a ser pago com base no tempo de permanência do veículo.
 
-### **FUNCIONALIDADES:**
+## **FUNCIONALIDADES:**
 
 #### 1. Registar entrada de veículos:
 
