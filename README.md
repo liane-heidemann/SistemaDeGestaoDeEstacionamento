@@ -8,7 +8,7 @@ Usuários podem registrar a entrada e a saída dos veículos e calcular o valor 
 
 ##### 1. Registar entrada de veículos:
 
-•	Usuário pode inserir informações do veículo (placa, modelo e cor)
+* Usuário pode inserir informações do veículo (placa, modelo e cor)
 
 •	Registro da hora de entrada do veículo no sistema
   
