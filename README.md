@@ -5,13 +5,14 @@ SISTEMA PARA GERENCIAR UM ESTACIONAMENTO:
 Usuários podem registrar a entrada e a saída dos veículos e calcular 
 o valor a ser pago com base no tempo de permanência do veículo.
 
+
 FUNCIONALIDADES:
 
 1. Registar entrada de veículos:
 
-•	Usuário pode inserir informações do veículo (placa, modelo e cor)
+  •	Usuário pode inserir informações do veículo (placa, modelo e cor)
 
-•	Registro da hora de entrada do veículo no sistema
+  •	Registro da hora de entrada do veículo no sistema
   
 2. Registro de saída de veículos:
 
