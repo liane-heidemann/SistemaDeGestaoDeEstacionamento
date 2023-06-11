@@ -1,8 +1,10 @@
 # SistemaDeGestaoDeEstacionamento
+
 SISTEMA PARA GERENCIAR UM ESTACIONAMENTO:
 
 Usuários podem registrar a entrada e a saída dos veículos e calcular 
 o valor a ser pago com base no tempo de permanência do veiculo.
+
 
 
 FUNCIONALIDADES:
@@ -15,6 +17,7 @@ FUNCIONALIDADES:
   • Registro da hora de entrada do veículo no sistema
   
   
+  
 2. Registro de saída de veículos:
 
   • Usuário pode inserir a placa do veículo para buscar as informações e a hora de entrada
@@ -22,6 +25,7 @@ FUNCIONALIDADES:
   • Calculo do tempo de permanência do veículo no estacionamento, com base na hora de entrada e na hora atual
   
   • Exibe as informações do veículo e o seu tempo de permanência
+  
   
   
 3. Cálcula o valor a ser pago:
