@@ -23,77 +23,7 @@ let carrosEstacionados = [{
     minutos: "15"
 }, {
     placa: "8742-XXXX",
-    modelolet carrosEstacionados = [{
-
-11
-
-placa: "1542-XXXX",
-
-12
-
-modelo: "Volkvagen",
-
-13
-
-cor: "Vermelho",
-
-14
-
-dia: "10/04/2023",
-
-15
-
-hora: "00",
-
-16
-
-minutos: "55"
-
-17
-
-}, {
-
-18
-
-placa: "5145-XXXX",
-
-19
-
-modelo: "Sedan",
-
-20
-
-cor: "Branco",
-
-21
-
-dia: "10/04/2023",
-
-22
-
-hora: "00",
-
-23
-
-minutos: "15"
-
-24
-
-}, {
-
-25
-
-placa: "8742-XXXX",
-
-26
-
-modelo: "Fox",
-
-27
-
-cor: "Azul",
-
-: "Fox",
+    modelo: "Fox",
     cor: "Azul",
     dia: "10/04/2023",
     hora: "00",
