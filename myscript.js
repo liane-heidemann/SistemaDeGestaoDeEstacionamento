@@ -133,6 +133,5 @@ botaoAlterarTaxas.addEventListener("click", function() {
         taxas[2] = taxaExtraX.value
     }
     addQueryBox("Taxas alteradas!")
-    addQueryBox2("Taxa Minuto = R$" + taxas[0] + " / Taxa Hora = R$" + taxas[1] + " / Taxa Extra: R$" + taxas[
-        2])
+    addQueryBox2("Taxa Minuto = R$" + taxas[0] + " / Taxa Hora = R$" + taxas[1] + " / Taxa Extra: R$" + taxas[2])
 })
