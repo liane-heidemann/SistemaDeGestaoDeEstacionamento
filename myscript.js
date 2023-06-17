@@ -138,6 +138,17 @@ let botaoLimpar = document.getElementById("botaoLimpar")
 let botaoAddVeiculo = document.getElementById("addVeiculo")
 let buscarPlaca = document.getElementById("buscarPlaca") //item 
 let botaoBuscarVeiculo = document.getElementById("botaoBuscarPlaca")
+
+// TAXAS E CALCULO 
+let queryBox2 = document.getElementById("query-box2") // query-box 
+let taxaMinutoX = document.getElementById("taxaMinuto")
+let taxaHoraX = document.getElementById("taxaHora")
+let taxaExtraX = document.getElementById("taxaExtra")
+let botaoAlterarTaxas = document.getElementById("botaoAlterarTaxas")
+let taxas = [0.25, 15, 0]
+let valorPagar = 0
+
+//CARROS REGISTRADOS 
 let carrosEstacionados = [{
     placa: "1542-XXXX",
     modelo: "Volkvagen",
@@ -160,15 +171,8 @@ let carrosEstacionados = [{
     hora: "00",
     minutos: "01"
 }]
-// TAXAS E CALCULO 
-let queryBox2 = document.getElementById("query-box2") // query-box 
-let taxaMinutoX = document.getElementById("taxaMinuto")
-let taxaHoraX = document.getElementById("taxaHora")
-let taxaExtraX = document.getElementById("taxaExtra")
-let botaoAlterarTaxas = document.getElementById("botaoAlterarTaxas")
-let taxas = [0.25, 15, 0]
-let valorPagar = 0
 
+//FUNÇÕES 
 function addQueryBox(input) {
     queryBox.value = input
 }
@@ -229,6 +233,8 @@ function buscarVeiculo() {
     }
     return "Placa de Veiculo não Cadastrado \nou \nDados Inseridos Estão Incorretos"
 }
+
+// BOTÕES 
 botaoMostrarVeiculos.addEventListener("click", function() {
     addQueryBox("")
     addQueryBox(listaProdutos())
@@ -244,7 +250,6 @@ botaoBuscarVeiculo.addEventListener("click", function() {
     addQueryBox("")
     addQueryBox(buscarVeiculo())
 })
-//let taxas = [ 0.25 , 15 , 0] 
 botaoAlterarTaxas.addEventListener("click", function() {
     if (taxaMinutoX.value != "") {
         taxas[0] = taxaMinutoX.value
